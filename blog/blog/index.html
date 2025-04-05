@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://fpsensor.github.io/en/git/">
+        <link rel="canonical" href="https://fpsensor.github.io/blog/blog/">
       
       
       
@@ -18,7 +18,7 @@
     
     
       
-        <title>Git/Github/Gitlab guide - FPSensor Home</title>
+        <title>doing tests - FPSensor Home</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#gitgithubgitlab-guide" class="md-skip">
+        <a href="#doing-tests" class="md-skip">
           Skip to content
         </a>
       
@@ -105,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Git/Github/Gitlab guide
+              doing tests
             
           </span>
         </div>
@@ -352,7 +352,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -418,95 +418,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#initialize-my-first-repo" class="md-nav__link">
-    <span class="md-ellipsis">
-      initialize my first repo
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#who-are-you" class="md-nav__link">
-    <span class="md-ellipsis">
-      who are you?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#doing-our-first-change" class="md-nav__link">
-    <span class="md-ellipsis">
-      Doing our first change
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#pushing-to-our-repo" class="md-nav__link">
-    <span class="md-ellipsis">
-      pushing to our repo
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#first-chaper-is-done-some-things-to-clarify" class="md-nav__link">
-    <span class="md-ellipsis">
-      first chaper is done, some things to clarify
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#clone-a-repo" class="md-nav__link">
-    <span class="md-ellipsis">
-      clone a repo
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#who-did-this" class="md-nav__link">
-    <span class="md-ellipsis">
-      who did this?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#i-want-a-cherry" class="md-nav__link">
-    <span class="md-ellipsis">
-      i want a cherry
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#to-be-continued" class="md-nav__link">
-    <span class="md-ellipsis">
-      to be continued
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -524,80 +435,7 @@
   
 
 
-<h1 id="gitgithubgitlab-guide">Git/Github/Gitlab guide</h1>
-<p>this guide will help u to start with git and some commands.  <br />
-its basic so dont pretend that u will be expert after this.  <br />
-u should have a git account of a git site ofc.  <br />
-u should had installed git already    </p>
-<h2 id="initialize-my-first-repo">initialize my first repo</h2>
-<p>new repo    </p>
-<pre><code>mkdir repo
-cd repo
-git init
-</code></pre>
-<h2 id="who-are-you">who are you?</h2>
-<p>with the information u provided to create a account u have to fil this    </p>
-<pre><code>git config --global user.name
-git config --global user.email
-</code></pre>
-<h2 id="doing-our-first-change">Doing our first change</h2>
-<pre><code>git branch -M master
-touch hi
-echo 1 &gt; hi
-git add hi
-git commit -m &quot;first hi public release&quot;
-</code></pre>
-<h2 id="pushing-to-our-repo">pushing to our repo</h2>
-<p>in our github we should make a repository with the name we want to add to it  <br />
-i want to clarify that i use github cuz its the more common but its the same for all    </p>
-<pre><code>git remote add origin https://github.com/FPSensor/hi
-git push -f -u origin HEAD:master
-</code></pre>
-<h2 id="first-chaper-is-done-some-things-to-clarify">first chaper is done, some things to clarify</h2>
-<p>1: we want u to be explicit with the commits, whats modified, with file, which section of the repo, anything, even in the description u should said why u did what    </p>
-<p>2: no need to put -m on the git commit command, if u dont add -m it will open the editor, this is better for long commit messages.    </p>
-<p>3: that larger push command is only for new branches, should be another way but if u clone the repo again a "git push" is enough    </p>
-<h2 id="clone-a-repo">clone a repo</h2>
-<p>as simple as "git clone link -b branch Descargas/hola"    </p>
-<h2 id="who-did-this">who did this?</h2>
-<p>i took a commit from another guy, how to recognize his work?  <br />
-in android comunity we dont want people that doesnt add authors to commits and u will be like trash for they (i say by previous experiences) so,  <br />
-we should add who did that.  <br />
-this will be applied for the previous commit, i will tell us how to do for others more later.    </p>
-<pre><code>git commit --amend --author=&quot;FPSensor &lt;gkartyt@gmail.com&gt;&quot;
-</code></pre>
-<p>but, how we got that info  <br />
-i took a commit from a repo where i was looking, how we can get that?  <br />
-in the commit link add .patch  <br />
-this will literally make the commit a patch file, something that we will talk later about, but the point is:   <br />
-we can use it to get the author, check it.    </p>
-<h2 id="i-want-a-cherry">i want a cherry</h2>
-<p>a cherry pick is literally wen you pick commits from another repo   <br />
-to do it is really simple  <br />
-we have to initialize the repository where the commit is and its changes with their commit hashes:    </p>
-<pre><code>git remote add cherrypick https://github.com/FPSensor/FPSensor
-git fetch cherrypick
-git cherry-pick hfwdhuwhfuiwuihfvuiwfhefhruifhfuihiuwe
-</code></pre>
-<p>u can just copy the hash from the commit  <br />
-i have to pick 300 commits, how?  <br />
-things to have in account?   <br />
-its a start commit and a end commit, everything after the first commit and before the final commit will be picked, no metter what it is     </p>
-<pre><code>git cherry-pick commit-start~..commit-end
-</code></pre>
-<p>oh, no  <br />
-we got a conflict of context at hi file    </p>
-<p>how we look into it?   <br />
-a git conflict its where git dont know what to do cuz your source and the source of the repo before that commit are different  <br />
-its really simple    </p>
-<pre><code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-======= that source with the commit applied (should appear as a hash of commit)
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; end of the confflict
-</code></pre>
-<p>we dont want to apply a commit cuz tons of confflicts and u are lazy?</p>
-<pre><code>git cherry-pick --ship
-</code></pre>
-<h2 id="to-be-continued">to be continued</h2>
+<h1 id="doing-tests">doing tests</h1>
 
 
 
