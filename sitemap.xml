@@ -2,50 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://fpsensor.github.io/</loc>
-         <lastmod>2025-04-07</lastmod>
+         <lastmod>2025-05-30</lastmod>
     </url>
     <url>
          <loc>https://fpsensor.github.io/blog/</loc>
-         <lastmod>2025-04-07</lastmod>
+         <lastmod>2025-05-30</lastmod>
     </url>
     <url>
          <loc>https://fpsensor.github.io/blog/2025/04/05/page-future/</loc>
-         <lastmod>2025-04-07</lastmod>
+         <lastmod>2025-05-30</lastmod>
     </url>
     <url>
          <loc>https://fpsensor.github.io/blog/2025/04/06/the-page-gets-a-new-look/</loc>
-         <lastmod>2025-04-07</lastmod>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://fpsensor.github.io/blog/2025/05/30/back-after-a-lot-of-time/</loc>
+         <lastmod>2025-05-30</lastmod>
     </url>
     <url>
          <loc>https://fpsensor.github.io/en/</loc>
-         <lastmod>2025-04-07</lastmod>
+         <lastmod>2025-05-30</lastmod>
     </url>
     <url>
          <loc>https://fpsensor.github.io/en/build/</loc>
-         <lastmod>2025-04-07</lastmod>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://fpsensor.github.io/en/crbhidden/</loc>
+         <lastmod>2025-05-30</lastmod>
     </url>
     <url>
          <loc>https://fpsensor.github.io/en/git/</loc>
-         <lastmod>2025-04-07</lastmod>
+         <lastmod>2025-05-30</lastmod>
     </url>
     <url>
          <loc>https://fpsensor.github.io/es/</loc>
-         <lastmod>2025-04-07</lastmod>
+         <lastmod>2025-05-30</lastmod>
     </url>
     <url>
          <loc>https://fpsensor.github.io/es/build/</loc>
-         <lastmod>2025-04-07</lastmod>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://fpsensor.github.io/es/crbhidden/</loc>
+         <lastmod>2025-05-30</lastmod>
     </url>
     <url>
          <loc>https://fpsensor.github.io/es/git/</loc>
-         <lastmod>2025-04-07</lastmod>
+         <lastmod>2025-05-30</lastmod>
+    </url>
+    <url>
+         <loc>https://fpsensor.github.io/blog/archive/05/2025/</loc>
+         <lastmod>2025-05-30</lastmod>
     </url>
     <url>
          <loc>https://fpsensor.github.io/blog/archive/04/2025/</loc>
-         <lastmod>2025-04-07</lastmod>
+         <lastmod>2025-05-30</lastmod>
     </url>
     <url>
          <loc>https://fpsensor.github.io/blog/category/page-status/</loc>
-         <lastmod>2025-04-07</lastmod>
+         <lastmod>2025-05-30</lastmod>
     </url>
 </urlset>
